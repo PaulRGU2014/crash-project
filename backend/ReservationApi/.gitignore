@@ -1,0 +1,37 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment-specific settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# IIS Express
+.vs/
+*.vspscc
+*.vssscc
+
+# Dotnet tools
+*.nupkg
+*.snk
+
+# EF Core
+Migrations/obj/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,48 @@
+.card {
+  padding: 1.25rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.status {
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  &.confirmed {
+    background: #e6f7e9;
+    color: #1a7f37;
+  }
+
+  &.pending {
+    background: #fff4e5;
+    color: #b76e00;
+  }
+
+  &.cancelled {
+    background: #fde7e7;
+    color: #b42323;
+  }
+}
